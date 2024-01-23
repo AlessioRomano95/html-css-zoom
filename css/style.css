@@ -2,6 +2,7 @@
   margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 main{
@@ -9,6 +10,7 @@ main{
   height: calc(100vh - 100px);
   overflow: auto;
   color: grey;
+  text-align: center;
 }
 
 footer{
@@ -25,12 +27,24 @@ footer{
 .container-main{
   margin: 50px 10px;
   padding: 20px;
-  display: flex;
-  flex-wrap: wrap;
 }
 
-.contents{
-  width: 300px;
-  height: 150px;
-  
+.col{
+  display: flex;
+  flex-direction: wrap;
+}
+
+
+.name{
+  display: flex;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 125px;
+  padding: 7px 7px 7px 4px;
+  right: 63px;
+  bottom: 36px;
+}
+
+span{
+  color: white;
 }
