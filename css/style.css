@@ -25,11 +25,13 @@ footer{
 
 /*container*/
 .container-main{
-  margin: 50px 10px;
-  padding: 20px;
+  margin: 100px 100px;
+  display: flex;
+  flex-wrap: wrap;
+
 }
 
-.col{
+.col.speaker{
   display: flex;
   flex-direction: wrap;
 }
@@ -47,4 +49,8 @@ footer{
 
 span{
   color: white;
+}
+
+.speaker img{
+  padding-right: 4px;
 }
